@@ -154,6 +154,10 @@ export function ChatInterface({ userId }: ChatInterfaceProps) {
     })
   }, [])
 
+  const handlePreview = useCallback((html: string, css?: string) => {
+    setCurrentPreview({ html, css })
+  }, [])
+
   const handleSubmit = useCallback(async (e: React.FormEvent) => {
     e.preventDefault()
     if (!input.trim() || isLoading) return
@@ -230,7 +234,7 @@ export function ChatInterface({ userId }: ChatInterfaceProps) {
                 <ChatMessage
                   key={msg.id}
                   message={msg}
-                  onPreview={setCurrentPreview}
+                  onPreview={handlePreview}
                   onCopy={copyToClipboard}
                   onDownload={downloadHTML}
                 />
