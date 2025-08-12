@@ -1,6 +1,8 @@
-# 🎨 CodeCraft-AI: HTML/CSS Code Generator Powered by GenAI
+# 🎨 CodeCraft-AI: Build your AI Powered UI Prototype
 
-Turn your creative prompts into clean and responsive HTML/CSS with the power of Gemini AI. Ideal for designers, developers, and learners looking to prototype UI ideas in seconds.
+⚡ An AI-powered tool that helps developers instantly design responsive UI prototypes 🎨 from natural language prompts using Google Gemini AI 🤖. 💾 Saves generated code, 🔐 supports secure authentication, and ✨ delivers a modern user experience.
+
+
 
 👉 [Live Demo Link](https://code-craft-ai-peach.vercel.app/)  
 
